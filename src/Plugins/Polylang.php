@@ -1,13 +1,13 @@
 <?php
 
-namespace WP4Laravel\Multilanguage;
+namespace WP4Laravel\Plugins;
 
 use Illuminate\Database\Eloquent\Builder;
 
 /**
  * Use in Corcel-based models to enable multilanguage related behaviour
  */
-trait Translatable
+trait Polylang
 {
     /**
      * Scope the Eloquent query on the selected language
