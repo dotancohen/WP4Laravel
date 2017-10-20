@@ -32,9 +32,9 @@ trait YoastTrait
             'opengraph-title' => $meta->get('_yoast_wpseo_opengraph-title') ?: $this->title,
             'opengraph-description' => $meta->get('_yoast_wpseo_opengraph-description') ?: $this->excerpt,
             'image' => $meta->get('_yoast_wpseo_opengraph-image') ?: $this->thumbnail,
-            'twitter-title' => $meta->get('_yoast_wpseo_twitter-title') ?: '',
-            'twitter-description' => $meta->get('_yoast_wpseo_twitter-description') ?: $this->excerpt,
-            'twitter-image' => $meta->get('_yoast_wpseo_twitter-image') ?: $this->thumbnail,
+            'twitter_title' => $meta->get('_yoast_wpseo_twitter-title') ?: '',
+            'twitter_description' => $meta->get('_yoast_wpseo_twitter-description') ?: $this->excerpt,
+            'twitter_image' => $meta->get('_yoast_wpseo_twitter-image') ?: $this->thumbnail,
         ];
     }
 
@@ -57,9 +57,9 @@ trait YoastTrait
             'opengraph-title' => $data['wpseo_opengraph-title'] ?? $this->title,
             'opengraph-description' => $data['wpseo_opengraph-description'] ?? $this->description,
             'image' => $data['wpseo_opengraph-image'] ?? '',
-            'twitter-title' => $data['wpseo_twitter-title'] ?? '',
-            'twitter-description' => $data['wpseo_twitter-description'] ?? $this->description,
-            'twitter-image' => $data['wpseo_twitter-image'] ?? '',
+            'twitter_title' => $data['wpseo_twitter-title'] ?? '',
+            'twitter_description' => $data['wpseo_twitter-description'] ?? $this->description,
+            'twitter_image' => $data['wpseo_twitter-image'] ?? '',
         ];
     }
 }
