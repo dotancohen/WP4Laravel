@@ -8,7 +8,7 @@ use WP4Laravel\Cache\CacheContent;
 /**
  * Enable the preview function of Wordpress
  */
-trait Preview
+trait PreviewTrait
 {
     /**
      * Get the requested post based on the slug or get the preview of a post

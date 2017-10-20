@@ -1,10 +1,10 @@
 <?php
 
-namespace WP4Laravel\Corcel;
+namespace WP4Laravel\Helpers;
 
 use Corcel\Model\Option;
 
-trait Pageurl
+trait PageurlTrait
 {
 
     /**
